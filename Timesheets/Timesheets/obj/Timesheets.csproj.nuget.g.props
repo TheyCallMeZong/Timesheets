@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSwagger-Net Condition=" '$(PkgSwagger-Net)' == '' ">C:\Users\Tom\.nuget\packages\swagger-net\8.3.47.101</PkgSwagger-Net>
+  </PropertyGroup>
 </Project>
