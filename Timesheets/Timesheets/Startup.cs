@@ -9,8 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Timesheets.Domain.Implementations;
-using Timesheets.Domain.Interfaces;
+using Timesheets.Data.Implementations;
+using Timesheets.Data.Interfaces;
 
 namespace Timesheets
 {
@@ -31,7 +31,7 @@ namespace Timesheets
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Timesheets"
+                    Title = "Timesheet"
                 });
             });
 

@@ -40,3 +40,7 @@ C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\obj\Debug\net5.0\Timesheet
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\obj\Debug\net5.0\ref\Timesheets.dll
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\obj\Debug\net5.0\Timesheets.pdb
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\obj\Debug\net5.0\Timesheets.genruntimeconfig.cache
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\NLog.config
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\NLog.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\NLog.Web.AspNetCore.dll

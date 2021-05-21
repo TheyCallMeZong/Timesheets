@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.SignalR.Protocol;
-using Timesheets.Domain.Interfaces;
+using Timesheets.Data.Interfaces;
 using Timesheets.Models;
 using Timesheets.Models.Dto;
 
-namespace Timesheets.Domain.Implementations
+namespace Timesheets.Data.Implementations
 {
     public class PersonManager : IPersonManager
     {
@@ -35,12 +35,11 @@ namespace Timesheets.Domain.Implementations
             return result;
         }
 
-        public void CreatePerson(PersonDto item)
+        public void CreatePerson(Person item)
         {
-            int id = _persons.GetCount();
             var newPerson = new Person()
             {
-                Id = ++id,
+                Id = item.Id,
                 FirstName = item.FirstName,
                 LastName = item.LastName,
                 Email = item.Email,

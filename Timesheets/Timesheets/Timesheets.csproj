@@ -5,6 +5,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="NLog" Version="4.7.10" />
+      <PackageReference Include="NLog.Config" Version="4.7.10" />
+      <PackageReference Include="NLog.Web.AspNetCore" Version="4.13.0-readme-preview" />
       <PackageReference Include="Swagger" Version="1.0.0" />
       <PackageReference Include="Swagger-Net" Version="8.3.47.101" />
       <PackageReference Include="SwaggerUi" Version="1.1.0" />
