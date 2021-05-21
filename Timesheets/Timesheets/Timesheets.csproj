@@ -4,4 +4,13 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Swagger" Version="1.0.0" />
+      <PackageReference Include="Swagger-Net" Version="8.3.47.101" />
+      <PackageReference Include="SwaggerUi" Version="1.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+    </ItemGroup>
+
 </Project>
