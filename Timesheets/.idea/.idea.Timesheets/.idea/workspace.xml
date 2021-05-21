@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5b9fb0-07e4-45eb-9351-1bc2e98f4872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Implementations/PersonManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IPersonManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Dto/PersonDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/Timesheets.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Timesheets.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Lesson3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -36,9 +27,9 @@
       <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IRepoBase.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Startup.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IPersonManager.cs" />
-      <option value="$PROJECT_DIR$/Timesheets/PersonsDb.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Domain/Implementations/PersonManager.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/PersonsDb.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sppP47Jg9V0b9rNAfUcuaSkekH" />
@@ -99,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621579359506</updated>
-      <workItem from="1621579384977" duration="2934000" />
+      <workItem from="1621579384977" duration="3762000" />
     </task>
     <servers />
   </component>
