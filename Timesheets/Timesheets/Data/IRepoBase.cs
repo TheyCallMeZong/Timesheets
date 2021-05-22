@@ -1,14 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Threading.Tasks;
 
 namespace Timesheets.Data
 {
-    public interface IRepoBase<T>
+    public interface IRepoBase<T> 
+        where T : class
     {
-        T GetPersonById(int id);
-        List<T> GetPersonsByName(string name);
-        List<T> TakePersons(int skip, int take);
-        void CreatePerson(T item);
-        void UpdatePerson(T item);
-        void DeletePerson(int id);
+        Task Create(T item);
+        Task Delete(Guid id);
+        Task Update(T item);
     }
 }

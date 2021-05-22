@@ -5,18 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5b9fb0-07e4-45eb-9351-1bc2e98f4872" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/Timesheets/Data/IRepoBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Data/Implemenations/PersonRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timesheets/Data/Interfaces/IPersonRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Controllers/EmployeeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Controllers/TimesheetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Data/Implementations/EmployeeRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Data/Implementations/UserRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Data/Interfaces/IEmployeeRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Data/PostgreSqlDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Implementations/EmployeeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Implementations/UserManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IEmployeeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IUserManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Dto/CreateUserRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Dto/EmployeeDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Dto/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Models/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timesheets/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Timesheets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Timesheets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Data/IRepoBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Data/IRepoBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Data/Implementations/PersonManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Data/Interfaces/IPersonManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Data/Interfaces/IUserRepo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Models/Dto/PersonDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/Models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/Timesheets.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/Timesheets.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/FromHeaderAttribute.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Microsoft.DotNet.InternalAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Microsoft.Extensions.PlatformAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swagger.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Swashbuckle.SwaggerUi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/System.Net.Http.Formatting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/System.Web.Http.WebHost.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/System.Web.Http.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/Timesheets.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/ref/Timesheets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/bin/Debug/net5.0/ref/Timesheets.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -26,6 +63,7 @@
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/ref/Timesheets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/ref/Timesheets.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Timesheets.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/project.packagespec.json" afterDir="false" />
@@ -39,17 +77,21 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Lesson3" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.nuget/packages/nlog.config/4.7.10/contentFiles/any/any/NLog.config" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Tom/Desktop/Timesheets/Timesheets/Timesheets/PersonsDb.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Tom/Desktop/Timesheets/Timesheets/Timesheets/PersonsDb.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Tom/Desktop/Timesheets/Timesheets/Timesheets/PersonsDb.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Tom/Desktop/Timesheets/Timesheets/Timesheets/PersonsDb.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -58,14 +100,41 @@
       <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IRepoBase.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IPersonManager.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Domain/Implementations/PersonManager.cs" />
-      <option value="$PROJECT_DIR$/Timesheets/PersonsDb.cs" />
-      <option value="$PROJECT_DIR$/Timesheets/Program.cs" />
       <option value="$USER_HOME$/.nuget/packages/nlog.config/4.7.10/contentFiles/any/any/NLog.config" />
       <option value="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" />
-      <option value="$PROJECT_DIR$/Timesheets/Startup.cs" />
-      <option value="$PROJECT_DIR$/Timesheets/Data/IRepoBase.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IPersonRepo.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Data/Implemenations/PersonRepo.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Ef/MyDbContext.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Users.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IPersonManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IUserManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Ef/Configurations/PersonConfiguration.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Ef/PostgreSQLDbConnection.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Controllers/UserController.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Dto/CreateUserRequest.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Ef/PostgreSQLDbContext.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Ef/PostgreSqlDbContext.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/PersonsDb.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Dto/EmployeeDto.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IEmployeeRepo.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IUserManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Dto/UserDto.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Implementations/UserManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IUserRepo.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/IRepoBase.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Employee.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/User.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/PostgreSqlDbContext.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IEmployeeManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Implementations/EmployeeManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Implementations/UserRepo.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Data/Implementations/EmployeeRepo.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Timesheets.csproj" />
+      <option value="$PROJECT_DIR$/Timesheets/Startup.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Controllers/EmployeeController.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Controllers/TimesheetController.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Program.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/appsettings.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sppP47Jg9V0b9rNAfUcuaSkekH" />
@@ -77,6 +146,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993446" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,6 +156,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Timesheets: IIS Express">
@@ -128,6 +200,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621579359506</updated>
       <workItem from="1621579384977" duration="6283000" />
+      <workItem from="1621666878496" duration="18675000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1621583840813</created>
@@ -142,9 +215,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
@@ -164,6 +238,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
