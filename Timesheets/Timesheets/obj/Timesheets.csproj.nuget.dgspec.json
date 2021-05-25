@@ -15,7 +15,7 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,29 +46,49 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Swagger": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[5.0.6, )"
             },
-            "Swagger-Net": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.3.47.101, )"
+              "version": "[5.0.6, )"
             },
-            "SwaggerUi": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[5.0.6, )"
             },
-            "Swashbuckle.AspNetCore.Swagger": {
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[5.0.6, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[2.0.3, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
+            "NLog.Config": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[4.7.10, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.13.0-readme-preview, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
             }
           },
           "imports": [
