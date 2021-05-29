@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Timesheets.Data.Interfaces;
 using Timesheets.Domain.Interfaces;
 using Timesheets.Models;
@@ -14,9 +15,15 @@ namespace Timesheets.Domain.Implementations
             _refreshTokenRepo = refreshTokenRepo;
         }
 
-        public async Task CreateToken(JwtRefreshToken jwtRefreshToken)
+        public async Task<JwtRefreshToken> GetToken(string token)
         {
-            await _refreshTokenRepo.Add(jwtRefreshToken);
+            var result = await _refreshTokenRepo.GetTokenFromDB(token);
+            return result;
+        }
+
+        public void CreateToken(JwtRefreshToken jwtRefreshToken)
+        {
+            _refreshTokenRepo.Add(jwtRefreshToken);
         }
     }
 }

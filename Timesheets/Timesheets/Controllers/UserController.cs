@@ -39,7 +39,6 @@ namespace Timesheets.Controllers
         /// Вывод всех юзеров 
         /// </summary>
         /// <returns></returns>
-        [Authorize("admin")]
         [HttpGet("getall")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -53,7 +52,6 @@ namespace Timesheets.Controllers
         /// </summary>
         /// <param name="userRequest">новые данные</param>
         /// <returns></returns>
-        [Authorize("admin")]
         [HttpPut("user/update/id/{id}")]
         public async Task<IActionResult> UpdateUser([FromBody] CreateUserRequest userRequest, [FromRoute] Guid id)
         {
@@ -66,7 +64,6 @@ namespace Timesheets.Controllers
         /// </summary>
         /// <param name="id">id для поиска пользователя</param>
         /// <returns></returns>
-        [Authorize("admin")]
         [HttpDelete("user/delete/id/{id}")]
         public async Task<IActionResult> DeleteUser([FromRoute] Guid id)
         {
@@ -74,7 +71,6 @@ namespace Timesheets.Controllers
             return Ok();
         }
         
-        [Authorize("admin")]
         [HttpGet("user/{id}")]
         public IActionResult GetUserById([FromRoute] Guid id)
         {

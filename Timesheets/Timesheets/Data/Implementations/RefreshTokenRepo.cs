@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Timesheets.Data.Ef;
 using Timesheets.Data.Interfaces;
 using Timesheets.Models;
@@ -15,10 +18,30 @@ namespace Timesheets.Data.Implementations
             _context = context;
         }
 
-        public async Task Add(JwtRefreshToken refreshToken)
+        public async Task<JwtRefreshToken> GetTokenFromDB(string token)
         {
-            await _context.RefreshTokens.AddAsync(refreshToken);
-            await _context.SaveChangesAsync();
+            var result = await _context.RefreshTokens.
+                FirstOrDefaultAsync(x => x.Token == token);
+            return result;
+        }
+
+        public void Add(JwtRefreshToken refreshToken)
+        {
+            _context.RefreshTokens.Add(refreshToken);
+            _context.SaveChanges();
+        }
+
+        public void DeleteTOken(JwtRefreshToken refreshToken)
+        {
+            foreach (var token in _context.RefreshTokens)
+            {
+                if (token.Token == refreshToken.Token)
+                {
+                    _context.RefreshTokens.Remove(token);
+                }
+            }
+
+            _context.SaveChanges();
         }
     }
 }

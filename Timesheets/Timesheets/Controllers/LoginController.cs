@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Timesheets.Domain.Interfaces;
@@ -14,11 +15,15 @@ namespace Timesheets.Controllers
     {
         private readonly ILoginManager _loginManager;
         private readonly IUserManager _userManager;
+        private readonly IRefreshTokenManager _refreshToken;
 
-        public LoginController(ILoginManager loginManager, IUserManager userManager)
+        public LoginController(ILoginManager loginManager,
+            IUserManager userManager,
+            IRefreshTokenManager refreshToken)
         {
             _loginManager = loginManager;
             _userManager = userManager;
+            _refreshToken = refreshToken;
         }
 
         [HttpPost]
@@ -26,7 +31,7 @@ namespace Timesheets.Controllers
         {
             var user = await _userManager.GetUser(request);
 
-            if (user == null) 
+            if (user == null)
                 return Unauthorized();
 
             var loginResponse = _loginManager.Authenticate(user);
@@ -35,9 +40,21 @@ namespace Timesheets.Controllers
         }
 
         [HttpPost("refresh")]
-        public async Task<IActionResult> Refresh([FromRoute] JwtTokenRefreshRequest jwtTokenRefreshRequest)
+        public async Task<IActionResult> Refresh([FromBody] JwtTokenRefreshRequest jwtTokenRefreshRequest)
         {
-            return Ok();
+            var result = await _refreshToken.GetToken(jwtTokenRefreshRequest.Token);
+
+            var user = _userManager.GetUserById(result.UserId);
+            
+            if (user != null)
+            {
+                var newTokens = _loginManager.Authenticate(user);
+                return Ok(newTokens);
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
     }
 }
