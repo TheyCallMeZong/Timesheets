@@ -10,6 +10,7 @@ using Timesheets.Data.Implementations;
 using Timesheets.Data.Interfaces;
 using Timesheets.Domain.Implementations;
 using Timesheets.Domain.Interfaces;
+using Timesheets.Infrastucture.Extensions;
 
 namespace Timesheets
 {
@@ -24,19 +25,11 @@ namespace Timesheets
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<PostgreSqlDbContext>(option =>
-                option.UseNpgsql(Configuration.GetConnectionString("PostgreSqlDbContext")));
-            services.AddScoped<IUserManager,UserManager>();
-            services.AddScoped<IUserRepo, UserRepo>();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Version = "v1",
-                    Title = "Timesheet"
-                });
-            });
-
+            services.DbConfiguration(Configuration);
+            services.AuthenticateConfiguration(Configuration);
+            services.RepositoriesConfig();
+            services.ManagerConfig();
+            services.SwaggerConfiguration();
             services.AddControllers();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

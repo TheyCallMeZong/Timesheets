@@ -38,3 +38,235 @@
 
 2021-05-22 19:09:19.0586 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
 
+2021-05-29 10:48:27.0851 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 10:48:29.1801 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 10:48:29.1832 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 10:48:29.1832 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 10:49:08.9144 | Info | Timesheets.Controllers.UserController.Create | Create new user | 
+
+2021-05-29 10:49:15.2308 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 10:51:36.5748 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 10:51:36.8770 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 10:51:36.8770 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 10:51:36.8770 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 11:59:44.1635 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 11:59:46.4196 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 11:59:46.4405 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 11:59:46.4405 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:00:50.8409 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:00:51.4582 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:00:51.4582 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:00:51.4582 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:01:03.2054 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:01:34.0608 | Info | Timesheets.Controllers.UserController.Create | Create new user | 
+
+2021-05-29 12:01:38.5881 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:02:28.7373 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:02:28.9981 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:02:28.9981 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:02:28.9981 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:02:34.7220 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:04:14.7307 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:04:15.0433 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:04:15.0433 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:04:15.0433 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:04:26.6219 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:09:09.8159 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:11:23.3623 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:11:59.2069 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:15:20.4074 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:18:03.1406 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:19:57.1145 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:21:36.0521 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:21:37.4027 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:21:37.4027 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:21:37.4027 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:22:07.0151 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:23:23.0921 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:23:23.3331 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:23:23.3331 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:23:23.3389 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:23:27.7349 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:24:01.2044 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:24:11.6818 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 12:24:50.2830 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:24:50.5003 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:24:50.5003 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:24:50.5003 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 12:25:37.5746 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 12:25:37.8034 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 12:25:37.8034 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 12:25:37.8077 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:35:19.9619 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:35:21.7001 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:35:21.7044 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:35:21.7044 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:35:38.6590 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 18:41:04.6062 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:41:04.9241 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:41:04.9278 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:41:04.9278 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:41:14.1779 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 18:42:45.5695 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:42:45.9977 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:42:45.9977 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:42:45.9977 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:43:14.4515 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:43:14.7806 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:43:14.7806 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:43:14.7806 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:44:01.0932 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:44:01.4083 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:44:01.4083 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:44:01.4083 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 18:44:30.0673 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 18:44:30.3883 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 18:44:30.3919 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 18:44:30.3919 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 19:03:16.3389 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 19:03:17.9865 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 19:03:17.9865 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 19:03:17.9865 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 19:03:32.0651 | Info | Timesheets.Controllers.UserController.GetAllUsers | Get all users | 
+
+2021-05-29 19:06:29.2512 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 19:06:29.5792 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 19:06:29.5792 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 19:06:29.5792 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 19:10:50.1198 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 19:10:50.8195 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 19:10:50.8195 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 19:10:50.8195 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 19:31:21.7260 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 19:31:22.6328 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 19:31:22.6328 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 19:31:22.6328 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 19:32:37.0674 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 19:32:37.4605 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 19:32:37.4605 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 19:32:37.4680 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 20:08:37.9360 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 20:08:43.2333 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 20:08:43.2600 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 20:08:43.2623 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 20:11:27.0723 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 20:11:30.1364 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 20:11:30.2019 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 20:11:30.3581 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+
+2021-05-29 20:20:53.0012 | Info | Timesheets.Program.Main | init main | 
+
+2021-05-29 20:20:55.6035 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Application started. Press Ctrl+C to shut down. | 
+
+2021-05-29 20:20:55.6433 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Hosting environment: Development | 
+
+2021-05-29 20:20:55.6433 | Info | Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted | Content root path: C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets | 
+

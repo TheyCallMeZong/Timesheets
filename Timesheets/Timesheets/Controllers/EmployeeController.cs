@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Timesheets.Domain.Interfaces;
 using Timesheets.Models;
@@ -7,6 +8,7 @@ using Timesheets.Models.Dto;
 
 namespace Timesheets.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("employees")]
     public class EmployeeController : ControllerBase
@@ -39,7 +41,7 @@ namespace Timesheets.Controllers
             return Ok();
         }
 
-        [HttpPut("employee/update/{id}")]
+        [HttpPut("employee/update")]
         public async Task<IActionResult> UpdateEmployee([FromBody] Employee employee)
         {
             await _employeeManager.Update(employee);

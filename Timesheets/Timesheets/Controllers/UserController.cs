@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Timesheets.Domain.Interfaces;
@@ -38,6 +39,7 @@ namespace Timesheets.Controllers
         /// Вывод всех юзеров 
         /// </summary>
         /// <returns></returns>
+        [Authorize("admin")]
         [HttpGet("getall")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -51,6 +53,7 @@ namespace Timesheets.Controllers
         /// </summary>
         /// <param name="userRequest">новые данные</param>
         /// <returns></returns>
+        [Authorize("admin")]
         [HttpPut("user/update/id/{id}")]
         public async Task<IActionResult> UpdateUser([FromBody] CreateUserRequest userRequest, [FromRoute] Guid id)
         {
@@ -63,11 +66,20 @@ namespace Timesheets.Controllers
         /// </summary>
         /// <param name="id">id для поиска пользователя</param>
         /// <returns></returns>
+        [Authorize("admin")]
         [HttpDelete("user/delete/id/{id}")]
-        public async Task<IActionResult> DeleteUser([FromQuery] Guid id)
+        public async Task<IActionResult> DeleteUser([FromRoute] Guid id)
         {
             await _userManager.Delete(id);
             return Ok();
+        }
+        
+        [Authorize("admin")]
+        [HttpGet("user/{id}")]
+        public IActionResult GetUserById([FromRoute] Guid id)
+        {
+            var user = _userManager.GetUserById(id);
+            return Ok(user);
         }
     }
 }
