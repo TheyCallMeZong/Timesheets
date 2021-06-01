@@ -4,6 +4,7 @@
     <projectFile>Timesheets/Timesheets.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1c5b9fb0-07e4-45eb-9351-1bc2e98f4872" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Timesheets/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2021_15_55_[Default_Changelist]2/Timesheets.csprojAssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Timesheets/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2021_15_55_[Default_Changelist]2/shelved.patch" beforeDir="false" />
@@ -25,6 +26,10 @@
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/Timesheets.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/ref/Timesheets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/obj/Debug/net5.0/ref/Timesheets.dll" afterDir="false" />
+=======
+    <list default="true" id="1c5b9fb0-07e4-45eb-9351-1bc2e98f4872" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Timesheets/PersonsDb.cs" afterDir="false" />
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -105,6 +111,18 @@
       <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IRefreshTokenManager.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Data/Interfaces/IRefreshTokenRepo.cs" />
       <option value="$PROJECT_DIR$/Timesheets/Data/Implementations/RefreshTokenRepo.cs" />
+=======
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Timesheets/Models/Person.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Models/Dto/PersonDto.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IRepoBase.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Startup.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Interfaces/IPersonManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Domain/Implementations/PersonManager.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/Controllers/PersonController.cs" />
+      <option value="$PROJECT_DIR$/Timesheets/PersonsDb.cs" />
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
     </changedPaths>
   </component>
   <component name="JsbtTreeLayoutManager">
@@ -130,11 +148,14 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+=======
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Timesheets: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Timesheets">
     <configuration name="Timesheets" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Timesheets/Timesheets.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -174,6 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621579359506</updated>
+<<<<<<< HEAD
       <workItem from="1621579384977" duration="6283000" />
       <workItem from="1621666878496" duration="18675000" />
     </task>
@@ -183,8 +205,10 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1621583840813</updated>
+=======
+      <workItem from="1621579384977" duration="3762000" />
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +216,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+<<<<<<< HEAD
   <component name="Vcs.Log.History.Properties">
     <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ID_ORDER">
@@ -203,6 +228,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -217,7 +244,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

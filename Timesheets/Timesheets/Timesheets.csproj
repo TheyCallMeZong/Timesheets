@@ -4,6 +4,7 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
+<<<<<<< HEAD
   <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
   <PackageReference Include="NLog.Config" Version="4.7.10" />
   <PackageReference Include="NLog.Web.AspNetCore" Version="4.13.0-readme-preview" />
@@ -16,4 +17,14 @@
   <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
   </ItemGroup>
+=======
+      <PackageReference Include="Swagger" Version="1.0.0" />
+      <PackageReference Include="Swagger-Net" Version="8.3.47.101" />
+      <PackageReference Include="SwaggerUi" Version="1.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+    </ItemGroup>
+
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
 </Project>

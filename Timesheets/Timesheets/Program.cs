@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using NLog.Web;
 
 namespace Timesheets
 {
@@ -9,6 +8,7 @@ namespace Timesheets
     {
         public static void Main(string[] args)
         {
+<<<<<<< HEAD
             var logger = NLogBuilder.ConfigureNLog("NLog.config").GetCurrentClassLogger();
             try
             {
@@ -19,10 +19,14 @@ namespace Timesheets
             {
                 logger.Error("Error in main");
             }
+=======
+            CreateHostBuilder(args).Build().Run();
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+<<<<<<< HEAD
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
@@ -33,5 +37,8 @@ namespace Timesheets
                     logger.ClearProviders();
                 })
                 .UseNLog();
+=======
+                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
     }
 }

@@ -46,6 +46,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.6, )"
@@ -59,6 +60,9 @@
               "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+=======
+            "Swagger": {
+>>>>>>> parent of 5f3582c (пофиксил недочеты)
               "target": "Package",
               "version": "[5.0.6, )"
             },
