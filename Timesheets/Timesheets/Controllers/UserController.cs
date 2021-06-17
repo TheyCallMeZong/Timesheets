@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Timesheets.Domain.Interfaces;
@@ -64,10 +65,17 @@ namespace Timesheets.Controllers
         /// <param name="id">id для поиска пользователя</param>
         /// <returns></returns>
         [HttpDelete("user/delete/id/{id}")]
-        public async Task<IActionResult> DeleteUser([FromQuery] Guid id)
+        public async Task<IActionResult> DeleteUser([FromRoute] Guid id)
         {
             await _userManager.Delete(id);
             return Ok();
+        }
+        
+        [HttpGet("user/{id}")]
+        public IActionResult GetUserById([FromRoute] Guid id)
+        {
+            var user = _userManager.GetUserById(id);
+            return Ok(user);
         }
     }
 }

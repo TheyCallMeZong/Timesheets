@@ -12,5 +12,6 @@ namespace Timesheets.Models
         public string Role { get; set; }
         
         public ICollection<Employee> Employees { get; set; }
+        public JwtRefreshToken RefreshToken { get; set; }
     }
 }

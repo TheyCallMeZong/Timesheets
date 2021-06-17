@@ -7,6 +7,7 @@ using Timesheets.Data.Interfaces;
 using Timesheets.Domain.Interfaces;
 using Timesheets.Models;
 using Timesheets.Models.Dto;
+using Timesheets.Models.Dto.Authentication;
 
 namespace Timesheets.Domain.Implementations
 {
@@ -17,6 +18,14 @@ namespace Timesheets.Domain.Implementations
         public UserManager(IUserRepo userRepo)
         {
             _userRepo = userRepo;
+        }
+
+        public async Task<User> GetUser(LoginRequest request)
+        {
+            var passwordHash = GetPasswordHash(request.Password);
+            var user = await _userRepo.GetByLoginAndPasswordHash(request.Login, passwordHash);
+
+            return user;
         }
 
         public async Task CreateUser(CreateUserRequest user)
@@ -60,6 +69,12 @@ namespace Timesheets.Domain.Implementations
         public async Task Delete(Guid id)
         {
             await _userRepo.Delete(id);
+        }
+
+        public User GetUserById(Guid id)
+        {
+            var result = _userRepo.GetUserById(id);
+            return result;
         }
         
         private static byte[] GetPasswordHash(string password)

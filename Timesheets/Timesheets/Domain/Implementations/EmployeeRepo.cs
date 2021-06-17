@@ -41,11 +41,11 @@ namespace Timesheets.Data.Implementations
             var employeeToUpdate = await _context.Employees.FindAsync(item.Id);
             if (employeeToUpdate != null)
             {
-                employeeToUpdate.Id = item.Id;
                 employeeToUpdate.UserId = item.UserId;
                 employeeToUpdate.IsDeleted = item.IsDeleted;
             }
 
+            _context.Employees.Update(employeeToUpdate);
             await _context.SaveChangesAsync();
         }
 
