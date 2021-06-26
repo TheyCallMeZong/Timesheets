@@ -28,16 +28,18 @@ namespace Timesheets.Domain.Implementations
             return user;
         }
 
-        public async Task CreateUser(CreateUserRequest user)
+        public async Task<Guid> CreateUser(CreateUserRequest user)
         {
             var passwordHash = GetPasswordHash(user.Password);
+            Guid id = Guid.NewGuid();
             await _userRepo.Create(new User()
             {
                 UserName = user.UserName,
                 PasswordHash = passwordHash,
                 Role = user.Role,
-                Id = Guid.NewGuid()
+                Id = id
             });
+            return id;
         }
 
         public async Task<List<UserDto>> Users()

@@ -11,7 +11,7 @@ namespace Timesheets.Controllers
 {
     [ApiController]
     [Route("users")]
-    public class UserController : ControllerBase
+    public class UserController : TimesheetBaseController
     {
         private readonly IUserManager _userManager;
         private readonly ILogger<UserController> _logger;
@@ -31,8 +31,8 @@ namespace Timesheets.Controllers
         public async Task<IActionResult> Create([FromBody] CreateUserRequest userRequest)
         {
             _logger.LogInformation("Create new user");
-            await _userManager.CreateUser(userRequest);
-            return Ok();
+            Guid id = await _userManager.CreateUser(userRequest);
+            return Ok(id);
         } 
         
         /// <summary>

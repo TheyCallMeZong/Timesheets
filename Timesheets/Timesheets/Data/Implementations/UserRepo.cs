@@ -55,8 +55,8 @@ namespace Timesheets.Data.Implementations
             }
             _context.Users.Update(user);
             await _context.SaveChangesAsync();           
-        }                                                
-                                                         
+        }
+
         public async Task Delete(Guid id)
         {
             foreach (var user in _context.Users)

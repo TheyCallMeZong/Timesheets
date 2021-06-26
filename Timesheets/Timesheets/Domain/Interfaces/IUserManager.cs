@@ -11,7 +11,7 @@ namespace Timesheets.Domain.Interfaces
     {
         User GetUserById(Guid id);
         Task<User> GetUser(LoginRequest request);
-        Task CreateUser(CreateUserRequest user);
+        Task<Guid> CreateUser(CreateUserRequest user);
         Task<List<UserDto>> Users();
         Task Update(Guid id, CreateUserRequest user);
         Task Delete(Guid id);

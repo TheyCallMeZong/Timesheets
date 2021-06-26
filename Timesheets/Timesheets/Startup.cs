@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -30,7 +31,10 @@ namespace Timesheets
             services.RepositoriesConfig();
             services.ManagerConfig();
             services.SwaggerConfiguration();
-            services.AddControllers();
+            services.AddValidation();
+            
+            services.AddControllers()
+                .AddFluentValidation();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

@@ -49,3 +49,7 @@ C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\Npgsql.dl
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Tom\Desktop\Timesheets\Timesheets\Timesheets\bin\Debug\net5.0\Validation.dll

@@ -8,6 +8,7 @@ namespace Timesheets.Data.Interfaces
 {
     public interface IUserRepo : IRepoBase<User>
     {
+        Task Create(User item);
         User GetUserById(Guid id);
         Task<User> GetByLoginAndPasswordHash(string login, byte[] passwordHash);
         Task<List<UserDto>> All();
